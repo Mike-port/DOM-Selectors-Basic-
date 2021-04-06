@@ -25,8 +25,8 @@ var header = document.getElementById('main-header')
 console.log(headerTitle);
 headerTitle.textContent = 'Hello';
 headerTitle.innerText = 'Goodbye';
-console.log(headerTitle.innerText); Use this to pay attention to style
-.textContent ignores style
+console.log(headerTitle.innerText); // Use this to pay attention to style
+// .textContent ignores style
 headerTitle.innerHTML = '<h3>Hello</h3>';
 header.style.borderBottom = 'solid 3px black'
 
