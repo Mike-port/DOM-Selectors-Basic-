@@ -1,6 +1,6 @@
 # DOM-Selectors-Basic-Reference
 ```javascript
-EXAMINE THE DOCUMENT OBJECT //
+// EXAMINE THE DOCUMENT OBJECT //
 
 // console.dir(document);
 
@@ -17,7 +17,7 @@ console.log(document.forms[0]);
 console.log(document.links);
 console.log(document.images);
 
-GETELEMENTBYID //
+// GETELEMENTBYID //
 
 console.log(document.getElementById('header-title'));
 var headerTitle = document.getElementById('header-title')
@@ -31,7 +31,7 @@ headerTitle.innerHTML = '<h3>Hello</h3>';
 header.style.borderBottom = 'solid 3px black'
 
 
-GETELEMENTSBYCLASSNAME //
+// GETELEMENTSBYCLASSNAME //
 
 var items = document.getElementsByClassName('list-group-item');
 console.log(items);
@@ -47,7 +47,7 @@ for (let i = 0; i < items.length; i++) {
   items[i].style.backgroundColor = 'red';  
 }
 
-GETELEMENTSBYTAGNAME //
+// GETELEMENTSBYTAGNAME //
 
 var li = document.getElementsByTagName('li');
 console.log(li);
@@ -60,7 +60,7 @@ for (let i = 0; i < li.length; i++) {
   li[i].style.backgroundColor = 'red';  
 }
 
-QUERYSELECTOR //
+// QUERYSELECTOR //
 var header = document.querySelector('#main-header');
 header.style.borderBottom = 'solid 4px red'
 
@@ -81,7 +81,7 @@ secondItem.style.color = 'blue';
 
 
 
-QUERY SELECTOR ALL //
+// QUERY SELECTOR ALL //
 var titles = document.querySelectorAll('.title');
 console.log(titles);
 titles[0].textContent = 'Yooooooo';
