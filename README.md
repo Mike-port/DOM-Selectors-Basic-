@@ -1,5 +1,5 @@
 # DOM-Selectors-Basic-Reference
-
+```javascript
 EXAMINE THE DOCUMENT OBJECT //
 
 // console.dir(document);
@@ -94,6 +94,7 @@ for (let i = 0; i < odd.length; i++) {
   odd[i].style.backgroundColor = 'lightgray'; 
   even[i].style.backgroundColor = 'purple'; 
 }
+```
 
 
 
